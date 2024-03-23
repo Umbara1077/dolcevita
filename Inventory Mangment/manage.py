@@ -7,7 +7,7 @@ MAX_CAPACITY = 10  # Assuming each pan can hold up to 10 units
 REFILL_THRESHOLD = 1  # Refill the pan when it drops to 2 or fewer units
 
 # Path to the Excel file
-inventory_file = 'inventory.xlsx'
+inventory_file = 'Inventory.xlsx'
 
 # Load and save functions for inventory outside of the class
 def load_inventory():
